@@ -29,13 +29,13 @@
     --spacing-large: 32px;
     --spacing-xlarge: 40px;
   
-  }
+}
 
 body {
     font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
     font-size: 16px;
     background-color: var(--color-interface-light);
-  }
+}
 
 h1, 
 h2,
@@ -44,7 +44,7 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-  }
+}
   
 header {
     padding-top: var(--spacing-medium);
@@ -54,10 +54,17 @@ header {
 .header-item {
     display: flex;
     justify-content: space-between;
-  }
+}
 
 .button {
     border: 0;
     background-color: transparent;
     cursor: pointer;
-  }
+}
+
+.title {
+    line-height: 1.5;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: var(--color-text-light);
+}
