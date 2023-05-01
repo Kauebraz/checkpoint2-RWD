@@ -34,7 +34,7 @@
 body {
     font-family: 'Open Sans', Arial, Helvetica, 'Ubuntu', sans-serif;
     font-size: 16px;
-    background-color: var(--color-interface-light);
+    background-color: var(--color-common-light);
 }
 
 h1, 
@@ -47,8 +47,9 @@ h6 {
 }
   
 header {
-    padding-top: var(--spacing-medium);
-    padding-bottom: var(--spacing-medium);
+    padding-top: var(--spacing-default);
+    padding-bottom: var(--spacing-default);
+    background-color: var(--color-interface-dark);
 }
   
 .header-item {
@@ -86,3 +87,31 @@ header {
     height: 35px;
     border-radius: 50%;
 }
+
+.form-task {
+    margin-top: var(--spacing-large);
+}
+
+.form-task-label {
+    display: block;
+    
+}
+
+.form-task-input {
+
+}
+
+.form-task-button {
+  
+}
+
+.task {
+    text-decoration: line-through;
+    display: flex;
+    padding: 10px;
+}
+
+.primeira-sessao {
+    background-color: var(--color-interface-dark);
+}
+
