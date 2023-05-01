@@ -80,3 +80,9 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
