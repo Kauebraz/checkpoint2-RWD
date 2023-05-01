@@ -55,3 +55,9 @@ header {
     display: flex;
     justify-content: space-between;
   }
+
+.button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
