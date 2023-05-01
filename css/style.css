@@ -94,11 +94,13 @@ header {
 
 .form-task-label {
     display: block;
-    
+    color: var(--color-text-dark);
 }
 
 .form-task-input {
-
+    margin-bottom: var(--spacing-default);
+    height: var(--spacing-xlarge);
+    width: 80%;
 }
 
 .form-task-button {
@@ -109,6 +111,7 @@ header {
     text-decoration: line-through;
     display: flex;
     padding: 10px;
+
 }
 
 .primeira-sessao {
