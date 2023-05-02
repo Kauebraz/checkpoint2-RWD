@@ -109,17 +109,27 @@ header {
     background-color: var(--color-brand-secondary);
     height: var(--spacing-xlarge);
     width: 50px;
-    margin-bottom: var(--spacing-large);
 }
 
 .task {
     text-decoration: line-through;
     display: flex;
-    padding: 10px;
+    padding: var(--spacing-xsmall);
+    width: 100%;
+}
 
+.task p {
+    width: 100%;
+    margin: 16px;
 }
 
 .primeira-sessao {
     background-color: var(--color-interface-dark);
+}
+
+.task-button {
+    color: var(--color-text-dark);
+    padding: var(--spacing-small);
+
 }
 
