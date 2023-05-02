@@ -109,6 +109,7 @@ header {
     background-color: var(--color-brand-secondary);
     height: var(--spacing-xlarge);
     width: 50px;
+    margin-bottom: var(--spacing-large);
 }
 
 .task {
