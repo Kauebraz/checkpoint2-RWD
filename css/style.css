@@ -66,7 +66,7 @@ header {
 .title {
     line-height: 1.5;
     letter-spacing: -1px;
-    font-weight: 300;
+    font-weight: 500;
     color: var(--color-text-light);
 }
 
@@ -110,6 +110,7 @@ header {
     height: var(--spacing-xlarge);
     width: 50px;
     margin-bottom: var(--spacing-large);
+    border-radius: var(--spacing-xsmall);
 }
 
 .task {
@@ -131,6 +132,5 @@ header {
 .task-button {
     color: var(--color-text-dark);
     padding: var(--spacing-small);
-
 }
 
