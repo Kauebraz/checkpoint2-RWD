@@ -90,21 +90,26 @@ header {
 
 .form-task {
     margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-large);
 }
 
 .form-task-label {
     display: block;
     color: var(--color-text-dark);
+    margin-bottom: var(--spacing-small);
 }
 
 .form-task-input {
-    margin-bottom: var(--spacing-default);
     height: var(--spacing-xlarge);
-    width: 80%;
+    width: 85%;
+    margin-bottom: var(--spacing-xlarge);
 }
 
 .form-task-button {
-  
+    background-color: var(--color-brand-secondary);
+    height: var(--spacing-xlarge);
+    width: 50px;
+    margin-bottom: var(--spacing-large);
 }
 
 .task {
