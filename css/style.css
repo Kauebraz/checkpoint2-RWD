@@ -94,13 +94,15 @@ header {
 }
 
 .form-task-label {
+    display: block;
     color: var(--color-text-dark);
+    margin-bottom: var(--spacing-small);
 }
 
 .form-task-input {
     height: var(--spacing-xlarge);
     width: 85%;
-
+    margin-bottom: var(--spacing-xlarge);
 }
 
 .form-task-button {
@@ -132,24 +134,3 @@ header {
     padding: var(--spacing-small);
 }
 
-
-@media(min-width: 300px) {}
-
-/* Smartphone Portrait */
-@media(min-width: 480px) and (max-width: 768px) {
-    .my-class { 
-      width: 300px;
-    }
-  }
-  
-  /* Tablets/ IPad Portrait */
-  @media(min-width: 768px) {}
-  
-  /* Anything smaller than standard 960 */
-  @media only screen and (max-width: 959px)  {}
-  
-  /* Bigger than standard 960 */
-  @media (min-width:960px) {}
-  
-  /* Bigger than standard 1200 */
-  @media(min-width: 1200px) {}
