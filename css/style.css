@@ -109,6 +109,7 @@ header {
     width: 50px;
     margin-bottom: var(--spacing-large);
     border-radius: var(--spacing-xsmall);
+    color: var(--color-common-light);
 }
 
 .input-and-button {
