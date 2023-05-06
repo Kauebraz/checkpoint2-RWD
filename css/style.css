@@ -94,15 +94,13 @@ header {
 }
 
 .form-task-label {
-    display: block;
     color: var(--color-text-dark);
-    margin-bottom: var(--spacing-small);
 }
 
 .form-task-input {
     height: var(--spacing-xlarge);
     width: 85%;
-    margin-bottom: var(--spacing-xlarge);
+
 }
 
 .form-task-button {
@@ -111,6 +109,11 @@ header {
     width: 50px;
     margin-bottom: var(--spacing-large);
     border-radius: var(--spacing-xsmall);
+}
+
+.input-and-button {
+    display: flex;
+    gap: 5px;
 }
 
 .task {
@@ -133,4 +136,22 @@ header {
     color: var(--color-text-dark);
     padding: var(--spacing-small);
 }
+
+
+@media(min-width: 300px) {
+    .form-task-input {
+        width: 80%;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 768px) {}
+  
+
+@media(min-width: 768px) {}
+
+@media only screen and (max-width: 959px)  {}
+  
+@media (min-width:960px) {}
+  
+@media(min-width: 1200px) {}
 
